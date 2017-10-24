@@ -445,49 +445,68 @@
   [hidden] {
     display: none;
   }
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Cuprum", "Arial", serif;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
 .mainheader {
+width: 100%;
 height:320px;
 background-color:grey;
 }
 
 .top-header {
-
 height:47;
-background-color: #2b10a3;
+background-color: #5b41cf;
+align-items: center;
 }
-.conteiner {
-    width:940px;
-    margin: 0 auto;
-    }
 
+.container {
+width:940px;
+margin: 0 auto;
+}
+
+.top-header-up {
+display:flex;
+align-items: center;
+}
 
 .logo {
-    display: inline-block;
-    width: 220px;
-    height: 42px;
-    background: #ee3643;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-bottom: 5px solid #b52933;
-}
-
-
-.top-nav ul {
-    display: inline-block;
-    padding: 0px;
-    margin: 0 0 0 0;
-}
-.top-nav li {
-    display: inline-block;
-}
-
-.text{
+width: 220px;
+height: 42px;
+background: #ee3643;
+text-align: center;
 text-decoration: none;
-color: white;
+text-transform: uppercase;
+border-bottom: 5px solid #b52933;
+}
+
+.search {
+width: 270px;
+height: 42px;
 background-color: #293449;
 border: none;
-width: 160px;
-height: 42px;
 
 }
+
+.favourities {
+width: 150px;
+}
+
+.basket {
+    width: 150px;
+    }
+    
+.order {
+width: 150px;
+}
+        
