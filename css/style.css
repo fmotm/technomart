@@ -499,7 +499,6 @@ border-bottom: 5px solid #b52933;
 .link {
 padding: 10px 35px 5px 35px;
 color:#fff;
-
 }
 
 
@@ -520,9 +519,67 @@ width: 150px;
     
 .order {
 width: 150px;
+background: green;
 }
 
+.top-header-middle {
+  display: flex;
+  justify-content: space-between;
+}
 
+.about {
+width: 300px;
+padding: 34px 52px 23px;
+}
+
+.information {
+max-width: 310px;
+padding: 50px 20px;
+}
+
+.entarance {
+
+}
+
+.menu {
+width: 100%;
+min-height: 60px;
+padding: 0;
+margin: 0;
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+background-color: #32425c;
+border-bottom: 5px solid #293449;
+font-size: 0;
+}
+
+.menu a {
+display: inline-block;
+color: #fff;
+text-decoration: none;
+padding: 18px 31px 18px 30px;
+font-size: 17px;
+}
+
+.items {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+} 
+
+
+
+.catalog {
+display: flex;
+justify-content: space-between;
+}
+
+.catalog-item {
+
+}
 
 .footer-buttom {
 display: flex;
