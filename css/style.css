@@ -452,6 +452,10 @@
     box-sizing: border-box;
 }
 
+body {
+	font-family: "Cuprum", "Arial", sans-serif;
+}
+
 h1 {
     font-family: "Cuprum", "Arial", serif;
     font-size: 24px;
@@ -462,14 +466,14 @@ h1 {
 
 .mainheader {
 width: 100%;
-height:320px;
-background-color:grey;
+min-height:320px;
+background-color: #f3f7f8;
 }
 
 .top-header {
-height:47;
-background-color: #5b41cf;
-align-items: center;
+width: 100%;
+min-height: 42px;
+background-color: #293449;
 }
 
 .container {
@@ -479,7 +483,7 @@ margin: 0 auto;
 
 .top-header-up {
 display:flex;
-align-items: center;
+justify-content: flex-start;
 }
 
 .logo {
@@ -491,6 +495,13 @@ text-decoration: none;
 text-transform: uppercase;
 border-bottom: 5px solid #b52933;
 }
+
+.link {
+padding: 10px 35px 5px 35px;
+color:#fff;
+
+}
+
 
 .search {
 width: 270px;
@@ -504,10 +515,17 @@ width: 150px;
 }
 
 .basket {
-    width: 150px;
-    }
+width: 150px;
+}
     
 .order {
 width: 150px;
 }
-        
+
+
+
+.footer-buttom {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
