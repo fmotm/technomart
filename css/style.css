@@ -546,7 +546,7 @@ width: 17px;
 height: 17px;
 top: 12px;
 left: 17px;
-background: url(../img/sprite.png);
+background: url('../img/sprite.png');
 background-repeat: no-repeat;
 background-position: 0 -3px;
 background-size: 17px;
@@ -560,7 +560,6 @@ width: 150px;
 }
 
 .bookmarks a, .basket a {
-display: block;
 font-family: "Cuprum","Arial",sans-serif;
 font-size: 17px;
 color: #fff;
@@ -571,24 +570,22 @@ position: relative;
 text-decoration: none;
 }
 
-.bookmarks a::after, .cart a::after {
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 16px;
-  top: 12px;
-  background: url(../img/sprite.png);
-  background-repeat: no-repeat;
-  background-size: 16px;
-  opacity: .3;
-  cursor: pointer;
-  transition: opacity 200ms linear;
-  background-position: -203px -5px ;
+.bookmarks a::after {
+content: "";
+position: absolute;
+width: 14px;
+height: 16px;
+top: 1px;
+right: 90px;
+background: url('../img/sprite.png');
+background-repeat: no-repeat;
+background-size: 16px;
+opacity: .3;
+cursor: pointer;
+background-position: -203px -5px ;
 }
 
-.bookmarks a::after {
-  
-}
+
 
 
 .basket {
@@ -596,13 +593,27 @@ width: 150px;
 }
     
 .order {
+display:block;
+min-width: 16%;
+background: #63a63e;
+}
 
-background: green;
+.menu-button {
+display: inline-block;
+text-decoration: none;
+color: #fff;
+text-align: center;
+background-color: #63a63e;
+border: none;
+width: 150px;
+height: 42px;
+line-height: 42px;
+font-size: 17px;
 }
 
 .info-panel {
 display: flex;
-justify-content: space-between;
+justify-content: flex-start;
 }
 
 .about {
@@ -610,10 +621,96 @@ width: 300px;
 padding: 34px 52px 23px;
 }
 
+.about p {
+font-family: "Cuprum","Arial",sans-serif;
+font-style: Italic;
+font-size: 16px;
+line-height: 23px;
+color: #ee3643;
+}
+
+
 .information {
 max-width: 310px;
-padding: 50px 20px;
+padding: 34px 20px 23px;
 }
+
+.telephone {
+display: block;
+border: 3px solid #fff;
+padding: 10px 50px 10px 70px;
+margin-top: 12px;
+font-size: 21px;
+line-height: 18px;
+color: #ee3643;
+text-decoration: none;
+position: relative;
+}
+
+.telephone::after {
+content: "";
+position: absolute;
+width: 22px;
+height: 22px;
+top: 10px;
+left: 12px;
+background-image: url("../img/sprite.png");
+background-repeat: no-repeat;
+background-position: -154px -3px;
+background-size: 19px;
+}
+
+
+.info-adress {
+font-family: "Cuprum","Arial",sans-serif;
+font-style: normal;
+font-size: 14px;
+line-height: 24px;
+color: #32425c;
+margin-top: 5px;
+}
+
+.entarance {
+display:flex;
+justify-content: space-between;
+height: 48px;
+}
+
+.sign-in {
+display: inline-block;
+text-decoration: none;
+text-align: center;
+padding-top: 9px;
+color: #000;
+font-size: 20px;
+background: white;
+font-weight: 600;
+border: none;
+width: 121px;
+height: 45px;
+position: relative;
+padding-left: 22px;
+background-color: white;
+
+}
+.registration {
+display: inline-block;
+text-decoration: none;
+text-align: center;
+padding-top: 9px;
+color: #000;
+font-size: 20px;
+background: white;
+font-weight: 600;
+border: none;
+width: 121px;
+height: 45px;
+position: relative;
+padding-left: 22px;
+background-color: white;
+
+}
+
 
 
 .menu {
