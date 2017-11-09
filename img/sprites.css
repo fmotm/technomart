@@ -1,0 +1,112 @@
+.icon-search, .icon-search_red, .icon-bookmark, .cart-icon, .icon-phone, .icon-login, .icon-home, .icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-home, .icon-down-dir, .icon-up-dir, .fb-icon, .vk-icon, .insta-icon{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon-search{
+	background-position: -17px -15px ;
+	width: 17px;
+	height: 17px;
+}
+
+.icon-search_red{
+	background-position: -64px -16px ;
+	width: 17px;
+	height: 17px;
+}
+
+.icon-bookmark{
+	background-position: -113px -17px ;
+	width: 14px;
+	height: 16px;
+}
+
+.cart-icon{
+	background-position: -162px -15px ;
+	width: 15px;
+	height: 15px;
+}
+
+.icon-phone{
+	background-position: -215px -20px ;
+	width: 19px;
+	height: 19px;
+}
+
+.icon-login{
+	background-position: -265px -20px ;
+	width: 20px;
+	height: 17px;
+}
+
+.icon-home{
+	background-position: -321px -23px ;
+	width: 14px;
+	height: 12px;
+}
+
+.icon-1{
+	background-position: -55px -71px ;
+	width: 44px;
+	height: 65px;
+}
+
+.icon-2{
+	background-position: -114px -75px ;
+	width: 75px;
+	height: 61px;
+}
+
+.icon-3{
+	background-position: -211px -78px ;
+	width: 78px;
+	height: 62px;
+}
+
+.icon-4{
+	background-position: -315px -67px ;
+	width: 59px;
+	height: 72px;
+}
+
+.icon-5{
+	background-position: -414px -74px ;
+	width: 78px;
+	height: 63px;
+}
+
+.icon-home{
+	background-position: -522px -73px ;
+	width: 14px;
+	height: 12px;
+}
+
+.icon-down-dir{
+	background-position: -424px -26px ;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-up-dir{
+	background-position: -469px -23px ;
+	width: 11px;
+	height: 10px;
+}
+
+.fb-icon{
+	background-position: -512px -14px ;
+	width: 12px;
+	height: 22px;
+}
+
+.vk-icon{
+	background-position: -560px -23px ;
+	width: 26px;
+	height: 15px;
+}
+
+.insta-icon{
+	background-position: -35px -161px ;
+	width: 88px;
+	height: 88px;
+}
+

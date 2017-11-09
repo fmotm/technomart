@@ -503,7 +503,7 @@ background: #ee3643;
 text-align: center;
 text-decoration: none;
 text-transform: uppercase;
-border-bottom: 5px solid #b52933;
+box-shadow: 0 5px 0 #b52933
 }
 
 .link {
@@ -614,6 +614,7 @@ font-size: 17px;
 .info-panel {
 display: flex;
 justify-content: flex-start;
+
 }
 
 .about {
@@ -674,6 +675,8 @@ margin-top: 5px;
 display:flex;
 justify-content: space-between;
 height: 48px;
+padding: 47px 0px 0px 50px;
+
 }
 
 .sign-in {
@@ -684,7 +687,7 @@ padding-top: 9px;
 color: #000;
 font-size: 20px;
 background: white;
-font-weight: 600;
+font-weight: 400;
 border: none;
 width: 121px;
 height: 45px;
@@ -701,12 +704,12 @@ padding-top: 9px;
 color: #000;
 font-size: 20px;
 background: white;
-font-weight: 600;
+font-weight: 400;
 border: none;
 width: 121px;
 height: 45px;
 position: relative;
-padding-left: 22px;
+padding-left: 0px;
 background-color: white;
 
 }
